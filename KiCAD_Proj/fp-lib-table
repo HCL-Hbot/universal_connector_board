@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Healthbot-Footprints")(type "KiCad")(uri "${KIPRJMOD}/Healthbot_Library/Healthbot-Footprints.pretty")(options "")(descr ""))
+)
