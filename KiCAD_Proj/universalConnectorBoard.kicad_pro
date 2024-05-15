@@ -392,7 +392,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MotorDriver_PCB.kicad_pro",
+    "filename": "universalConnectorBoard.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -471,6 +471,10 @@
     [
       "4d36baa7-ef48-416a-b1c8-6a662c0af28f",
       ""
+    ],
+    [
+      "26655477-e6dc-458e-ab5c-3170a4e00944",
+      "PowerManagement"
     ]
   ],
   "text_variables": {}
