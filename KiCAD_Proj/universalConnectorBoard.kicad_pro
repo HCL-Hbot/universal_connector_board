@@ -474,7 +474,11 @@
     ],
     [
       "26655477-e6dc-458e-ab5c-3170a4e00944",
-      "PowerManagement"
+      "Regulator5V"
+    ],
+    [
+      "a7166bb0-93ac-4d7b-a705-9c615168eaf0",
+      "StepperMotors"
     ]
   ],
   "text_variables": {}
