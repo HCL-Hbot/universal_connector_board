@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Project_Healthbot_HAT")
+    (date "2024-05-16")
+    (rev "V0.1")
+    (company "HAN Univeristy of Applied Sciences")
+    (comment 1 "Marelle Vink")
+  )
+
   (lib_symbols
     (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 0 6.858 0)
@@ -481,6 +489,8 @@
   (junction (at 83.82 99.06) (diameter 0) (color 0 0 0 0)
     (uuid eac4fe18-8499-4e3f-9bc2-3ddcf5ef9e0b)
   )
+
+  (no_connect (at 119.38 99.06) (uuid 899fe530-604b-47c6-800a-e45de29deb16))
 
   (wire (pts (xy 172.72 102.87) (xy 172.72 107.95))
     (stroke (width 0) (type default))
