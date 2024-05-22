@@ -1,0 +1,202 @@
+(footprint "INDPM7265X400N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SRP6540-1")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "1730140f-a20b-4b8d-887a-a92f578f320b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "INDPM7265X400N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fa7f0d71-0f3d-41ad-b3b9-3d3f89ea6802")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "INDPM7265X400N"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2dbee1fa-bc6e-484a-aa33-2eaae5df00b3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2aea578-2020-42cc-a3a8-92f35ed780cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95b40320-ff32-4c4f-8e32-a3c203aadd4e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.6 3.25)
+		(end 3.6 3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f1d94e7d-eb00-41d7-a0da-b42cd4a1f79d")
+	)
+	(fp_line
+		(start 3.6 -3.25)
+		(end -3.6 -3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ff10856-a10e-4089-ba9d-b2f2e1db2052")
+	)
+	(fp_line
+		(start -4.5 -3.6)
+		(end 4.5 -3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4c1db272-b5bf-4052-9461-89a815dd786f")
+	)
+	(fp_line
+		(start -4.5 3.6)
+		(end -4.5 -3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8af485da-35c7-4bd9-8714-606c07552729")
+	)
+	(fp_line
+		(start 4.5 -3.6)
+		(end 4.5 3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6954327a-2c6e-4c7a-9ec1-ed2791c59ba2")
+	)
+	(fp_line
+		(start 4.5 3.6)
+		(end -4.5 3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b5a43c8b-52dd-4bb3-85fe-15f7108b9f6d")
+	)
+	(fp_line
+		(start -3.6 -3.25)
+		(end 3.6 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "805e8086-20d7-41ed-9307-96b1bd5a92ce")
+	)
+	(fp_line
+		(start -3.6 3.25)
+		(end -3.6 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c39897a-5f66-45ca-9248-9c01d634b296")
+	)
+	(fp_line
+		(start 3.6 -3.25)
+		(end 3.6 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "54baa079-4175-4162-b833-5b43fb10225b")
+	)
+	(fp_line
+		(start 3.6 3.25)
+		(end -3.6 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7c122c71-dd63-4f4d-ab92-83caad4db92f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "77807e9c-8755-496e-b45b-d27b837a9aa8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.8 0)
+		(size 2.9 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "95ba32cc-8c5d-468b-ae4f-4bb8e1dedef1")
+	)
+	(pad "2" smd rect
+		(at 2.8 0)
+		(size 2.9 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "85f02b36-c701-4751-80ad-26d4cd9165a7")
+	)
+	(model "C:\\Users\\mavvi\\OneDrive\\Documenten\\KiCad\\8.0\\SamacSys_Parts.3dshapes\\SRP6540-1R0M.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
