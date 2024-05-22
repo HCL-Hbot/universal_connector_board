@@ -13204,7 +13204,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_S8B-XH-A_1x08_P2.50mm_Horizontal"
 			(at 189.23 152.4 0)
 			(effects
 				(font
@@ -19771,6 +19771,44 @@
 			(project "universalConnectorBoard"
 				(path "/4d36baa7-ef48-416a-b1c8-6a662c0af28f"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 106.68)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "81ebf2d6-63ef-43f9-ac0a-87a453d7d172")
+		(property "Sheetname" "RPI4"
+			(at 15.24 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RPI4.kicad_sch"
+			(at 15.24 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "universalConnectorBoard"
+				(path "/4d36baa7-ef48-416a-b1c8-6a662c0af28f"
+					(page "4")
 				)
 			)
 		)

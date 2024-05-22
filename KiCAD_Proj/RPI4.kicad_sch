@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "930428ca-e884-4bbf-a8f5-9334bf5264b5")
+	(uuid "8759332f-cd42-4c83-880e-ad10ffd0a5d0")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Healthbot-Symbols:RASPBERRY_PI_4B_4GB"
@@ -1067,18 +1067,174 @@
 			)
 		)
 	)
+	(no_connect
+		(at 77.47 55.88)
+		(uuid "0db9e97f-037d-4237-aa45-d9945506cc20")
+	)
+	(no_connect
+		(at 26.67 48.26)
+		(uuid "2019f299-62d1-4967-802f-d3843c3a7983")
+	)
+	(no_connect
+		(at 77.47 53.34)
+		(uuid "25c97068-896f-4db0-8150-503fb4c556f0")
+	)
+	(no_connect
+		(at 26.67 71.12)
+		(uuid "276a9d9a-a4a8-4e1d-bfa5-67817150b779")
+	)
+	(no_connect
+		(at 77.47 62.23)
+		(uuid "2ce93b69-ebdd-4816-9b4f-7265ce3b0005")
+	)
+	(no_connect
+		(at 77.47 68.58)
+		(uuid "2e5c1891-18d3-4316-adaf-24a21a8605fa")
+	)
+	(no_connect
+		(at 77.47 40.64)
+		(uuid "3380656c-60fb-43f2-b5c7-184600d0927a")
+	)
+	(no_connect
+		(at 77.47 50.8)
+		(uuid "38b06425-8bef-4503-8695-cbdbb9223dc2")
+	)
+	(no_connect
+		(at 26.67 83.82)
+		(uuid "38c08ef8-0a97-4a3b-ae9a-d199422da9be")
+	)
+	(no_connect
+		(at 77.47 81.28)
+		(uuid "3a2b6942-a2ce-4986-a409-69f03451c01d")
+	)
+	(no_connect
+		(at 26.67 66.04)
+		(uuid "3baef13c-d936-47bd-b673-603e07306aa0")
+	)
+	(no_connect
+		(at 26.67 38.1)
+		(uuid "3c464be6-b79a-4ba9-ab99-7f44a076d551")
+	)
+	(no_connect
+		(at 77.47 86.36)
+		(uuid "53d7bdb5-dc69-44fb-a116-a0da28dbf4ed")
+	)
+	(no_connect
+		(at 77.47 66.04)
+		(uuid "66ef4218-8690-49b1-95ff-2130eeb58da3")
+	)
+	(no_connect
+		(at 77.47 63.5)
+		(uuid "73bddadf-bbc1-4d01-9144-a8867fdd6cfd")
+	)
+	(no_connect
+		(at 26.67 68.58)
+		(uuid "749a2000-ada7-493b-a71f-e0cde18407c2")
+	)
+	(no_connect
+		(at 26.67 81.28)
+		(uuid "7cc48d28-47ff-44ac-9494-e153468d374a")
+	)
+	(no_connect
+		(at 26.67 53.34)
+		(uuid "837b05f2-5514-45d5-a217-e6a11e91fc24")
+	)
+	(no_connect
+		(at 77.47 76.2)
+		(uuid "85af785b-b595-4f8e-8255-022056c7f05f")
+	)
+	(no_connect
+		(at 77.47 78.74)
+		(uuid "96294cf3-7ecd-476d-8eeb-06dc2201432e")
+	)
+	(no_connect
+		(at 77.47 60.96)
+		(uuid "96ba5624-12fc-4c5b-864a-b5af257acb2a")
+	)
+	(no_connect
+		(at 26.67 49.53)
+		(uuid "a570cdea-8018-4fe4-83ae-375a8dd46f86")
+	)
+	(no_connect
+		(at 77.47 48.26)
+		(uuid "a8d83908-bd9c-47e2-bbd9-66be3db26c50")
+	)
+	(no_connect
+		(at 26.67 50.8)
+		(uuid "a9ce9f3c-c7b4-4a93-9cd5-2815912e2eec")
+	)
+	(no_connect
+		(at 26.67 58.42)
+		(uuid "b656e321-6b77-4e65-8ebd-e371690a3d1e")
+	)
+	(no_connect
+		(at 26.67 35.56)
+		(uuid "c5923ee8-cec3-4e06-b5c9-4861b16eebe2")
+	)
+	(no_connect
+		(at 77.47 33.02)
+		(uuid "c848557a-97f4-4644-912c-aaa3c69ba0de")
+	)
+	(no_connect
+		(at 26.67 76.2)
+		(uuid "d0e125b9-312d-4710-9044-db9b2ed796f4")
+	)
+	(no_connect
+		(at 77.47 73.66)
+		(uuid "d5c534f4-cd94-4bfe-bccf-a44e2682f532")
+	)
+	(no_connect
+		(at 26.67 55.88)
+		(uuid "ddc92e1f-5851-4e4e-9b38-77b0d5cadca3")
+	)
+	(no_connect
+		(at 26.67 40.64)
+		(uuid "ded6375a-edca-4a19-b3c8-15c3fbf5bc67")
+	)
+	(no_connect
+		(at 26.67 60.96)
+		(uuid "dfecf8ab-c3cc-4bb2-aa69-5c8fc38d80dd")
+	)
+	(no_connect
+		(at 26.67 44.45)
+		(uuid "e0a787cb-27cb-43b5-8f62-64390ed91768")
+	)
+	(no_connect
+		(at 77.47 88.9)
+		(uuid "e6e9dbc0-4b6b-45a7-8198-bc8acad954d7")
+	)
+	(no_connect
+		(at 26.67 73.66)
+		(uuid "e8a9b07c-5272-4311-9b9d-4abb69c3e071")
+	)
+	(no_connect
+		(at 77.47 30.48)
+		(uuid "ef982bb4-ca86-43dd-a2c2-ff8a7245a05b")
+	)
+	(no_connect
+		(at 77.47 58.42)
+		(uuid "f3241ed0-2aa7-4b6b-b5ed-6f29e2c3a64c")
+	)
+	(no_connect
+		(at 77.47 43.18)
+		(uuid "fa63b67f-1fab-4c34-8949-fa59f3f37511")
+	)
+	(no_connect
+		(at 26.67 45.72)
+		(uuid "fd00c0af-cda9-449c-9ad0-971a7c3fc3ed")
+	)
 	(symbol
 		(lib_id "Healthbot-Symbols:RASPBERRY_PI_4B_4GB")
-		(at 100.33 82.55 0)
+		(at 52.07 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "537e8120-5700-409b-9aab-f15d87246365")
+		(uuid "38630c0d-0fe6-4cff-b14b-fc79bf76a711")
 		(property "Reference" "U3"
-			(at 100.33 44.45 0)
+			(at 52.07 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1086,15 +1242,15 @@
 			)
 		)
 		(property "Value" "RASPBERRY_PI_4B_4GB"
-			(at 100.33 46.99 0)
+			(at 52.07 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "RASPBERRY_PI_4B_4GB:MODULE_RASPBERRY_PI_4B_4GB"
-			(at 100.33 82.55 0)
+		(property "Footprint" "Healthbot-Footprints:MODULE_RASPBERRY_PI_4B_4GB"
+			(at 52.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1104,7 +1260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 82.55 0)
+			(at 52.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1113,7 +1269,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 82.55 0)
+			(at 52.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1122,7 +1278,7 @@
 			)
 		)
 		(property "MF" "Raspberry Pi"
-			(at 100.33 82.55 0)
+			(at 52.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1132,7 +1288,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "16 mm"
-			(at 100.33 82.55 0)
+			(at 52.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1142,7 +1298,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 100.33 82.55 0)
+			(at 52.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1152,7 +1308,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 100.33 82.55 0)
+			(at 52.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1162,7 +1318,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/RASPBERRY%20PI%204B/4GB/Raspberry+Pi/view-part/?ref=eda"
-			(at 100.33 82.55 0)
+			(at 52.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1172,7 +1328,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 100.33 82.55 0)
+			(at 52.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1182,7 +1338,7 @@
 			)
 		)
 		(property "PARTREV" "4"
-			(at 100.33 82.55 0)
+			(at 52.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1192,7 +1348,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RASPBERRY%20PI%204B/4GB/Raspberry+Pi/view-part/?ref=snap"
-			(at 100.33 82.55 0)
+			(at 52.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1202,7 +1358,7 @@
 			)
 		)
 		(property "MP" "RASPBERRY PI 4B/4GB"
-			(at 100.33 82.55 0)
+			(at 52.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1212,7 +1368,7 @@
 			)
 		)
 		(property "Description_1" "\nBCM2711 Raspberry Pi 4 Model B 4GB - ARM® Cortex®-A72 MPU Embedded Evaluation Board\n"
-			(at 100.33 82.55 0)
+			(at 52.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1222,7 +1378,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Raspberry Pi"
-			(at 100.33 82.55 0)
+			(at 52.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1232,7 +1388,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 100.33 82.55 0)
+			(at 52.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1242,7 +1398,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "RASPBERRY PI 4B/4GB"
-			(at 100.33 82.55 0)
+			(at 52.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1251,153 +1407,153 @@
 				(hide yes)
 			)
 		)
-		(pin "31"
-			(uuid "1927cf20-526d-49c7-bbed-c9da9a70fe64")
-		)
-		(pin "13"
-			(uuid "78ebdc1a-385c-403d-a7f2-35f274a33fb6")
-		)
-		(pin "20"
-			(uuid "427ae5b5-68d0-40e7-b862-8ece21e9b71c")
-		)
-		(pin "25"
-			(uuid "edfb3db4-9e6a-4dab-b2c9-1cbb24450ea9")
-		)
-		(pin "32"
-			(uuid "842065fc-d2fd-433f-a1f1-b654a8a4be3d")
-		)
-		(pin "21"
-			(uuid "b103ea19-eb36-4aaf-8d2f-09792b5e024c")
-		)
-		(pin "10"
-			(uuid "34b243f1-89e1-4a4e-b5dc-4c086d800c02")
-		)
-		(pin "15"
-			(uuid "49010542-5714-4f99-b522-63ffa385ae1a")
-		)
-		(pin "18"
-			(uuid "f52a69fc-b4be-4ddf-bfb0-204100514597")
-		)
-		(pin "24"
-			(uuid "39c03353-583e-46c5-b921-d44ca529f60b")
-		)
-		(pin "38"
-			(uuid "c288104b-2e5d-4fc8-8f50-f9c53ebca9e0")
-		)
-		(pin "S3"
-			(uuid "51bb96bf-e221-47ce-8040-789d721cb329")
-		)
-		(pin "39"
-			(uuid "757d44b8-6694-44f8-b8f6-56d95bac244b")
-		)
-		(pin "6"
-			(uuid "80c150cf-4bbb-4913-b6f8-f7a67630ecb1")
-		)
-		(pin "7"
-			(uuid "6ef78680-741f-4927-b5ce-9fb2371ab7f1")
-		)
-		(pin "8"
-			(uuid "a090eb8e-4b73-4512-9607-0466fe88bd42")
-		)
-		(pin "43"
-			(uuid "89daf7e9-6542-452f-a4e9-ac42e5cc5739")
-		)
-		(pin "22"
-			(uuid "a593f58b-a7d8-4071-a744-187590aee59d")
-		)
-		(pin "34"
-			(uuid "1e9fa744-3931-4179-884b-b29243cdee29")
-		)
-		(pin "16"
-			(uuid "7f6d777b-3726-4c91-82dd-8c7e17c52f04")
-		)
-		(pin "19"
-			(uuid "2a626d85-7514-48e0-8c75-50d01321d3db")
-		)
-		(pin "40"
-			(uuid "86b98752-2193-4eb1-b36a-b057f78741b8")
-		)
-		(pin "5"
-			(uuid "bc9e49e6-94e1-48ad-9ed8-4b76ab963740")
-		)
-		(pin "17"
-			(uuid "ee5d7c90-95b9-404c-9e5a-7a377d791be7")
-		)
-		(pin "12"
-			(uuid "7712c801-fa09-4d60-a094-e7ad6090c1e3")
-		)
-		(pin "14"
-			(uuid "9de3b2b8-af82-4d92-a318-87cf947d5be7")
-		)
-		(pin "26"
-			(uuid "a6118526-9fb6-4c30-b173-a8e1df83f7bc")
-		)
-		(pin "27"
-			(uuid "b813b029-3193-4941-8526-5b29924262e0")
-		)
-		(pin "29"
-			(uuid "f7aa15b4-0416-427f-9faf-e9e7f01745c0")
-		)
-		(pin "30"
-			(uuid "741fdcaf-3c09-459f-8ba7-a26944dd2cd0")
-		)
-		(pin "1"
-			(uuid "2b047e1e-95c5-4831-8ac1-f37cf28ad75e")
-		)
-		(pin "3"
-			(uuid "e15c3781-8398-4477-8aeb-c9cb837399a4")
-		)
-		(pin "33"
-			(uuid "9fa8e1cd-89ba-43b2-879b-e7328f07de8e")
-		)
-		(pin "35"
-			(uuid "e5136aa6-3081-4617-9d66-327f2fb208e1")
-		)
-		(pin "23"
-			(uuid "0b312ae8-7159-44af-bf4d-c3d89678e6cb")
-		)
-		(pin "36"
-			(uuid "389567c0-0eea-4069-9853-e0ff26e9cb16")
-		)
-		(pin "2"
-			(uuid "4f0fb61f-b664-43d8-b2ba-8887887631f8")
-		)
-		(pin "41"
-			(uuid "5078143d-9a81-4968-a334-4845841b314b")
-		)
-		(pin "28"
-			(uuid "24e62504-b4b2-41e3-8696-03e4b751b676")
-		)
-		(pin "42"
-			(uuid "f3dae06b-de91-4fd2-8c28-40f31f51a7fc")
-		)
-		(pin "S1"
-			(uuid "73205fde-3d8c-42dd-806c-0dd5d33d04e5")
-		)
-		(pin "S2"
-			(uuid "d9be6a56-63c5-4091-bc7d-6cd1e8a8d76c")
+		(pin "4"
+			(uuid "3b06f899-6a1d-425f-a25b-0e5c9229aee7")
 		)
 		(pin "11"
-			(uuid "cd3794ca-6c4f-4b7f-8eeb-1c5322d6f608")
+			(uuid "0d11a899-022a-4f0c-85ba-b38f97456181")
 		)
-		(pin "4"
-			(uuid "0cfe8381-5ffd-4b0b-a928-16511c4a597a")
-		)
-		(pin "S4"
-			(uuid "c64f6f0f-befb-476a-a6f4-0c21c40796a6")
-		)
-		(pin "44"
-			(uuid "d10bd912-5b4d-46da-85e0-990683c86c73")
-		)
-		(pin "37"
-			(uuid "391f191b-bd35-416d-b1ed-2cd047ca2bf9")
+		(pin "21"
+			(uuid "154c6c1f-1c8c-44a2-80aa-4aed4e3f1e74")
 		)
 		(pin "9"
-			(uuid "219167ca-e1bd-4dba-b0f0-f3b32f3618fa")
+			(uuid "0e0c7686-0653-4fd9-8836-3d20f34c15b6")
+		)
+		(pin "19"
+			(uuid "7f5ad5f0-f7d3-4528-b026-bd02bc16934a")
+		)
+		(pin "6"
+			(uuid "fcbf1ffc-aeba-4e78-9e54-af05b6f8f9e2")
+		)
+		(pin "S2"
+			(uuid "2067bed5-496b-4c67-a40f-040a8bb51761")
+		)
+		(pin "27"
+			(uuid "1d6056c9-3558-4a31-a0f2-eaf3c3d87c35")
+		)
+		(pin "22"
+			(uuid "c6cebfab-56d7-4507-8a36-eb10bad8ffe9")
+		)
+		(pin "8"
+			(uuid "08bc7077-bf68-43f5-b54b-0bf8d73fb994")
+		)
+		(pin "34"
+			(uuid "0ceeb920-5207-4064-a8e6-2b916e89ca10")
+		)
+		(pin "43"
+			(uuid "ae2ed1e8-73aa-409e-b42f-f9a14f40c9fd")
+		)
+		(pin "10"
+			(uuid "4f970a13-94b6-42c0-ac7b-e092d0622664")
+		)
+		(pin "18"
+			(uuid "d79a4636-7c2a-49a4-a4eb-309455b70c04")
+		)
+		(pin "41"
+			(uuid "9f9fa31d-5938-46f9-9118-3d96b3c1d293")
+		)
+		(pin "17"
+			(uuid "72470c41-45ca-42eb-a335-23c065584a00")
+		)
+		(pin "7"
+			(uuid "97e1be3a-8e47-46fa-8c9e-31a8b48223ce")
+		)
+		(pin "25"
+			(uuid "cc1f94a0-db21-4bf7-a68b-bdfd33f9a341")
+		)
+		(pin "42"
+			(uuid "02369415-7476-42da-ab45-3613db18e461")
+		)
+		(pin "32"
+			(uuid "4442e55d-2409-499c-93d9-f6cbb9e5b789")
+		)
+		(pin "S3"
+			(uuid "67dadf57-5da9-4d86-a6d1-ac76366d5907")
+		)
+		(pin "S4"
+			(uuid "c2a5fbbd-bd59-4b0a-baac-c3792cc7ac8a")
+		)
+		(pin "15"
+			(uuid "218e0129-9960-4a7d-87c2-876a8fc97500")
+		)
+		(pin "38"
+			(uuid "745a6dd1-aff0-412f-9efb-0d001de8df5e")
+		)
+		(pin "30"
+			(uuid "a8b02bee-9b8a-4cd7-b0ad-2e67d7865b13")
+		)
+		(pin "14"
+			(uuid "dd98b45b-72e9-4049-a091-6a099abb7f54")
+		)
+		(pin "16"
+			(uuid "14fcbaf0-b395-4ecd-bbff-879c7030cb3b")
+		)
+		(pin "36"
+			(uuid "485f6e33-081f-4862-b03c-35d570be347b")
+		)
+		(pin "39"
+			(uuid "de96e3df-f174-45b9-96d1-be8902505d2b")
+		)
+		(pin "13"
+			(uuid "08234b3e-f1b5-4d76-8f55-dd2ecdd84a77")
+		)
+		(pin "26"
+			(uuid "9ed8256d-af20-4f7e-b8ee-45c2530e4f83")
+		)
+		(pin "28"
+			(uuid "3d4f1d56-eac4-4d7e-8d74-df8aee282686")
+		)
+		(pin "31"
+			(uuid "a8f3c255-09b1-46ff-a935-fd5eb63bc449")
+		)
+		(pin "20"
+			(uuid "88874af5-26ee-4db6-afe4-40d23ba8e81c")
+		)
+		(pin "3"
+			(uuid "4985c0d8-f891-4dac-b301-85cc0a5bbdfb")
+		)
+		(pin "40"
+			(uuid "f3ee9c10-c6fb-4eee-ba8e-c1236d2e90b0")
+		)
+		(pin "5"
+			(uuid "1d7ae9db-2027-4db3-b89a-f31ddeb2c4f9")
+		)
+		(pin "37"
+			(uuid "b35a2d90-2bf5-41be-bc79-91b23a045c44")
+		)
+		(pin "2"
+			(uuid "a28dc066-2d96-402f-bd26-ae3b0b7ddfa2")
+		)
+		(pin "23"
+			(uuid "cfba4f36-c890-4c4b-ad08-c1a015463497")
+		)
+		(pin "24"
+			(uuid "49e46e8e-bd88-4101-b5e1-abc15c76cf2d")
+		)
+		(pin "12"
+			(uuid "2e8c025e-a63b-47f3-97ec-3b712b5a4717")
+		)
+		(pin "35"
+			(uuid "b3a5fafe-489e-412d-8959-d4d3eb57b05b")
+		)
+		(pin "33"
+			(uuid "c8b84ac7-06c8-497f-9480-d063b3c9351f")
+		)
+		(pin "44"
+			(uuid "29de9740-6ded-42d8-9444-012c263e049b")
+		)
+		(pin "S1"
+			(uuid "b3ceac42-5310-4a63-be5d-57354cd7135a")
+		)
+		(pin "29"
+			(uuid "ee0d3925-841c-4e18-b497-0df11cf0f467")
+		)
+		(pin "1"
+			(uuid "a47fc969-939d-4e3b-8d24-5bd0f347f66d")
 		)
 		(instances
 			(project "universalConnectorBoard"
-				(path "/4d36baa7-ef48-416a-b1c8-6a662c0af28f/278048b1-6074-4239-8c06-afc2cf6cbf8a"
+				(path "/4d36baa7-ef48-416a-b1c8-6a662c0af28f/81ebf2d6-63ef-43f9-ac0a-87a453d7d172"
 					(reference "U3")
 					(unit 1)
 				)
