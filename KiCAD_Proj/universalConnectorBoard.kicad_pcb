@@ -30456,6 +30456,19 @@
 		(layer "Edge.Cuts")
 		(uuid "f93d884d-1d79-40e8-8aed-21d51c86505f")
 	)
+	(gr_text "Project Healthbot PCB\nV0.1"
+		(at 154.175 98.725 90)
+		(layer "B.SilkS")
+		(uuid "ae2aaea1-427f-42b5-ab29-faa73e91614c")
+		(effects
+			(font
+				(size 3 1.5)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "CAMERA\n"
 		(at 140.212 112.341 90)
 		(layer "Dwgs.User")
