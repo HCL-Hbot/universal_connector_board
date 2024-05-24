@@ -12,108 +12,6 @@
 		(comment 1 "Marelle Vink")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1367,12 +1265,6 @@
 		(uuid "783b9bdb-c27e-485c-bfa5-38eb7579666a")
 	)
 	(junction
-		(at 71.12 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8542fc9a-77cf-4e3f-8444-a878f35686d0")
-	)
-	(junction
 		(at 212.09 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1401,12 +1293,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9b94f27-5e7b-4d6b-8d51-c519a66759d2")
-	)
-	(junction
-		(at 172.72 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7c1558c-6437-4b8d-8083-586792f9dd10")
 	)
 	(junction
 		(at 60.96 99.06)
@@ -1443,12 +1329,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e087bbce-6c7f-4335-9c7b-78692094b456")
-	)
-	(junction
-		(at 83.82 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eac4fe18-8499-4e3f-9bc2-3ddcf5ef9e0b")
 	)
 	(junction
 		(at 171.45 95.25)
@@ -1899,16 +1779,6 @@
 			(type default)
 		)
 		(uuid "90186b02-e557-4776-b39d-ea5cb9a311c1")
-	)
-	(wire
-		(pts
-			(xy 71.12 99.06) (xy 83.82 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a27f93a-02c5-45db-b53d-c2a6b7a1adda")
 	)
 	(wire
 		(pts
@@ -4537,72 +4407,6 @@
 			(project "universalConnectorBoard"
 				(path "/4d36baa7-ef48-416a-b1c8-6a662c0af28f/26655477-e6dc-458e-ab5c-3170a4e00944"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 172.72 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ea6e46c5-10d2-47c6-bc48-b7be9a7dd06e")
-		(property "Reference" "TP1"
-			(at 173.99 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 173.99 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 177.8 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 172.72 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cfa5d9e6-5a28-499b-ad4a-affb5078961d")
-		)
-		(instances
-			(project "universalConnectorBoard"
-				(path "/4d36baa7-ef48-416a-b1c8-6a662c0af28f/26655477-e6dc-458e-ab5c-3170a4e00944"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
