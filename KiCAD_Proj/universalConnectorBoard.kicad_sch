@@ -10638,7 +10638,7 @@
 		)
 		(uuid "644f30a0-6439-447c-88db-cc92320dc2b6")
 	)
-	(label "Display_SDA"
+	(label "Display_MOSI"
 		(at 208.28 115.57 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11177,7 +11177,7 @@
 		)
 		(uuid "d1c7c985-afa7-43c5-9360-5ce80423c237")
 	)
-	(label "Display_SCL"
+	(label "Display_CLK"
 		(at 207.01 90.17 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11254,7 +11254,7 @@
 		)
 		(uuid "e1ed3fd5-831d-43cf-8495-af3e4fb696fe")
 	)
-	(label "Display_SDA"
+	(label "Display_MOSI"
 		(at 207.01 87.63 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11397,7 +11397,7 @@
 		)
 		(uuid "fd222031-71db-42a2-a434-0de9122e66c1")
 	)
-	(label "Display_SCL"
+	(label "Display_CLK"
 		(at 208.28 118.11 0)
 		(fields_autoplaced yes)
 		(effects
