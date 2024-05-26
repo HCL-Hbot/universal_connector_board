@@ -2093,6 +2093,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part#" ""
+			(at 158.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c77548c-33f1-4c73-b0fe-fd963792127b")
 		)
@@ -2344,6 +2353,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part#" ""
+			(at 199.39 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "af8ab91a-7bb9-4946-a0fc-eb396c3056e0")
 		)
@@ -2470,6 +2488,15 @@
 			)
 		)
 		(property "Mouser" "x"
+			(at 158.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" ""
 			(at 158.75 91.44 0)
 			(effects
 				(font
@@ -2736,6 +2763,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part#" ""
+			(at 110.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "24c652a0-64a9-432c-833c-b8f393c8c3ed")
 		)
@@ -2981,6 +3017,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part#" ""
+			(at 78.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "8be6820e-e51c-4b3f-9c07-d5d84220ef6d")
 		)
@@ -3181,6 +3226,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part#" ""
+			(at 243.84 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "47e46a36-b8fa-47fa-ab05-b7ead3fc2168")
 		)
@@ -3338,6 +3392,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part#" ""
+			(at 36.83 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5cb68c6c-0302-4e7e-9fe1-004260bd68d2")
 		)
@@ -3431,6 +3494,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part#" ""
+			(at 121.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6e6918bb-cee7-4875-8efc-3c7e5cae31e8")
 		)
@@ -3515,6 +3587,15 @@
 			)
 		)
 		(property "Mouser" "x"
+			(at 36.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" ""
 			(at 36.83 91.44 0)
 			(effects
 				(font
@@ -3778,6 +3859,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" ""
+			(at 232.41 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
