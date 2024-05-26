@@ -683,7 +683,7 @@
           "group_by": false,
           "label": "Beschrijving",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
