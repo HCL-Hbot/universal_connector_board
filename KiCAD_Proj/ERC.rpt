@@ -1,0 +1,15 @@
+ERC-rapport (2024-05-26T03:13:29+0200, codering UTF8)
+
+***** Blad /
+[power_pin_not_driven]: Voedingsinvoerpin niet aangedreven door voedingsuitvoerpinnen
+    ; error
+    @(6600,00 mils, 3350,00 mils): Symbol IC1 Pin 39 [VSYS, Voedingsinvoer, Lijn]
+[power_pin_not_driven]: Voedingsinvoerpin niet aangedreven door voedingsuitvoerpinnen
+    ; error
+    @(6600,00 mils, 3250,00 mils): Symbol IC1 Pin 40 [VBUS, Voedingsinvoer, Lijn]
+
+***** Blad /Regulator5V/
+
+***** Blad /StepperMotors/
+
+ ** ERC-berichten: 2 Fouten 2 Waarschuwingen 0

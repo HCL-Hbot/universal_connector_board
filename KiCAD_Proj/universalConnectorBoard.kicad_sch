@@ -15559,7 +15559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TSR-1-2433"
+		(property "Footprint" "Healthbot-Footprints:TSR-1-2433"
 			(at 274.32 140.64 0)
 			(effects
 				(font

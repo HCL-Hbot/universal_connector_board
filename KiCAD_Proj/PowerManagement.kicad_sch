@@ -4438,7 +4438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "INDPM7265X400N"
+		(property "Footprint" "Healthbot-Footprints:INDPM7265X400N"
 			(at 193.04 191.44 0)
 			(effects
 				(font
