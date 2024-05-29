@@ -1,76 +1,78 @@
 ** Drc report for universalConnectorBoard.kicad_pcb **
-** Created on 2024-05-26T03:13:12+0200 **
+** Created on 2024-05-29T13:57:43+0200 **
 
-** Found 9 DRC violations **
-[shorting_items]: Items die twee netten kortsluiten (netten /Regulator5V/BST en /Regulator5V/SW)
-    Local override; error
-    @(128,6510 mm, 61,3410 mm): Pad 1 [/Regulator5V/BST] van IC3 op F.Cu
-    @(128,1010 mm, 61,8910 mm): Pad 20 [/Regulator5V/SW] van IC3 op F.Cu
-[shorting_items]: Items die twee netten kortsluiten (netten +12V en /Regulator5V/SW)
-    Local override; error
+** Found 11 DRC violations **
+[clearance]: Overschrijding van vrije afstand (netklasse 'Default' vrije afstand 0,2000 mm; werkelijk 0,1591 mm)
+    Rule: netklasse 'Default'; error
     @(128,6510 mm, 59,5410 mm): Pad 5 [+12V] van IC3 op F.Cu
     @(128,1010 mm, 58,9910 mm): Pad 6 [/Regulator5V/SW] van IC3 op F.Cu
-[shorting_items]: Items die twee netten kortsluiten (netten GND en unconnected-(IC3-SS-Pad11))
-    Local override; error
+[clearance]: Overschrijding van vrije afstand (netklasse 'Default' vrije afstand 0,2000 mm; werkelijk 0,1591 mm)
+    Rule: netklasse 'Default'; error
     @(126,3010 mm, 58,9910 mm): Pad 10 [GND] van IC3 op F.Cu
     @(125,7510 mm, 59,5410 mm): Pad 11 [unconnected-(IC3-SS-Pad11)] van IC3 op F.Cu
-[shorting_items]: Items die twee netten kortsluiten (netten /Regulator5V/MODE en GND)
-    Local override; error
+[clearance]: Overschrijding van vrije afstand (netklasse 'Default' vrije afstand 0,2000 mm; werkelijk 0,1591 mm)
+    Rule: netklasse 'Default'; error
     @(125,7510 mm, 61,3410 mm): Pad 15 [/Regulator5V/MODE] van IC3 op F.Cu
     @(126,3010 mm, 61,8910 mm): Pad 16 [GND] van IC3 op F.Cu
 [lib_footprint_issues]: De huidige configuratie omvat niet de bibliotheek 'clipboard'.
     Local override; warning
     @(76,5250 mm, 70,0000 mm): Footprint Logo
-[solder_mask_bridge]: Opening soldeermasker voor overbrugt items met verschillende netten
-    Rule: bordinstellingen soldeermasker minimumbreedte; error
-    @(128,6510 mm, 61,3410 mm): Pad 1 [/Regulator5V/BST] van IC3 op F.Cu
-    @(128,1010 mm, 61,8910 mm): Pad 20 [/Regulator5V/SW] van IC3 op F.Cu
-[solder_mask_bridge]: Opening soldeermasker voor overbrugt items met verschillende netten
-    Rule: bordinstellingen soldeermasker minimumbreedte; error
-    @(128,6510 mm, 59,5410 mm): Pad 5 [+12V] van IC3 op F.Cu
-    @(128,1010 mm, 58,9910 mm): Pad 6 [/Regulator5V/SW] van IC3 op F.Cu
-[solder_mask_bridge]: Opening soldeermasker voor overbrugt items met verschillende netten
-    Rule: bordinstellingen soldeermasker minimumbreedte; error
+[starved_thermal]: Onvolledige verbinding van thermische ontlasting met zone (laag F.Cu; zone minimum aantal spaken 2; werkelijk 1)
+    Local override; error
+    @(126,8750 mm, 62,7073 mm): Zone [GND] op F.Cu
     @(126,3010 mm, 58,9910 mm): Pad 10 [GND] van IC3 op F.Cu
-    @(125,7510 mm, 59,5410 mm): Pad 11 [unconnected-(IC3-SS-Pad11)] van IC3 op F.Cu
-[solder_mask_bridge]: Opening soldeermasker voor overbrugt items met verschillende netten
-    Rule: bordinstellingen soldeermasker minimumbreedte; error
-    @(125,7510 mm, 61,3410 mm): Pad 15 [/Regulator5V/MODE] van IC3 op F.Cu
+[starved_thermal]: Onvolledige verbinding van thermische ontlasting met zone (laag B.Cu; zone minimum aantal spaken 2; werkelijk 1)
+    Local override; error
+    @(41,2943 mm, 48,4310 mm): Zone [GND] op F.Cu en B.Cu
+    @(97,0520 mm, 91,6940 mm): PTH-pad 42 [GND] van IC1
+[starved_thermal]: Onvolledige verbinding van thermische ontlasting met zone (laag F.Cu; zone minimum aantal spaken 2; werkelijk 1)
+    Local override; error
+    @(41,2943 mm, 48,4310 mm): Zone [GND] op F.Cu en B.Cu
+    @(92,2020 mm, 82,8040 mm): PTH-pad 23 [GND] van IC1
+[starved_thermal]: Onvolledige verbinding van thermische ontlasting met zone (laag F.Cu; zone minimum aantal spaken 2; werkelijk 1)
+    Local override; error
+    @(41,2943 mm, 48,4310 mm): Zone [GND] op F.Cu en B.Cu
+    @(92,2020 mm, 82,8040 mm): Pad 23 [GND] van IC1 op F.Cu
+[starved_thermal]: Onvolledige verbinding van thermische ontlasting met zone (laag F.Cu; zone minimum aantal spaken 2; werkelijk 1)
+    Local override; error
+    @(41,2943 mm, 48,4310 mm): Zone [GND] op F.Cu en B.Cu
+    @(129,2000 mm, 54,9125 mm): Pad 2 [GND] van C5 op F.Cu
+[starved_thermal]: Onvolledige verbinding van thermische ontlasting met zone (laag F.Cu; zone minimum aantal spaken 2; werkelijk 1)
+    Local override; error
+    @(41,2943 mm, 48,4310 mm): Zone [GND] op F.Cu en B.Cu
+    @(125,7510 mm, 60,4410 mm): Pad 13 [GND] van IC3 op F.Cu
+[starved_thermal]: Onvolledige verbinding van thermische ontlasting met zone (laag F.Cu; zone minimum aantal spaken 2; werkelijk 1)
+    Local override; error
+    @(41,2943 mm, 48,4310 mm): Zone [GND] op F.Cu en B.Cu
     @(126,3010 mm, 61,8910 mm): Pad 16 [GND] van IC3 op F.Cu
 
 ** Found 0 unconnected pads **
 
-** Found 11 Footprint errors **
+** Found 9 Footprint errors **
+[net_conflict]: Padnet (unconnected-(IC1-RUN-Pad30)_0) komt niet overeen met het net gegeven door schema (unconnected-(IC1-RUN-Pad30)).
+    Local override; warning
+    @(74,4220 mm, 82,8040 mm): Pad 30 [unconnected-(IC1-RUN-Pad30)_0] van IC1 op F.Cu
 [net_conflict]: Padnet (unconnected-(IC1-ADC_VREF-Pad35)_0) komt niet overeen met het net gegeven door schema (unconnected-(IC1-ADC_VREF-Pad35)).
     Local override; warning
     @(61,7220 mm, 82,8040 mm): PTH-pad 35 [unconnected-(IC1-ADC_VREF-Pad35)_0] van IC1
-[net_conflict]: Padnet (unconnected-(IC1-ADC_VREF-Pad35)_0) komt niet overeen met het net gegeven door schema (unconnected-(IC1-ADC_VREF-Pad35)).
-    Local override; warning
-    @(61,7220 mm, 82,8040 mm): Pad 35 [unconnected-(IC1-ADC_VREF-Pad35)_0] van IC1 op F.Cu
-[net_conflict]: Padnet (unconnected-(IC1-3V3-Pad36)_0) komt niet overeen met het net gegeven door schema (unconnected-(IC1-3V3-Pad36)).
-    Local override; warning
-    @(59,1820 mm, 82,8040 mm): PTH-pad 36 [unconnected-(IC1-3V3-Pad36)_0] van IC1
 [net_conflict]: Padnet (unconnected-(IC1-3V3-Pad36)_0) komt niet overeen met het net gegeven door schema (unconnected-(IC1-3V3-Pad36)).
     Local override; warning
     @(59,1820 mm, 82,8040 mm): Pad 36 [unconnected-(IC1-3V3-Pad36)_0] van IC1 op F.Cu
-[net_conflict]: Padnet (unconnected-(IC1-3V3_EN-Pad37)_0) komt niet overeen met het net gegeven door schema (unconnected-(IC1-3V3_EN-Pad37)).
-    Local override; warning
-    @(56,6420 mm, 82,8040 mm): PTH-pad 37 [unconnected-(IC1-3V3_EN-Pad37)_0] van IC1
 [net_conflict]: Padnet (unconnected-(IC1-3V3_EN-Pad37)_0) komt niet overeen met het net gegeven door schema (unconnected-(IC1-3V3_EN-Pad37)).
     Local override; warning
     @(56,6420 mm, 82,8040 mm): Pad 37 [unconnected-(IC1-3V3_EN-Pad37)_0] van IC1 op F.Cu
 [net_conflict]: Padnet (unconnected-(U3-3V3-Pad1)_0) komt niet overeen met het net gegeven door schema (unconnected-(U3-3V3-Pad1)).
     Local override; warning
     @(103,5520 mm, 72,6380 mm): PTH-pad 1 [unconnected-(U3-3V3-Pad1)_0] van U3
-[net_conflict]: Padnet (unconnected-(U3-SHIELD-PadS1)_1) komt niet overeen met het net gegeven door schema (unconnected-(U3-SHIELD-PadS1)).
-    Local override; warning
-    @(156,6820 mm, 71,3680 mm): PTH-pad S2 [unconnected-(U3-SHIELD-PadS1)_1] van U3
-[net_conflict]: Padnet (unconnected-(U3-SHIELD-PadS1)_2) komt niet overeen met het net gegeven door schema (unconnected-(U3-SHIELD-PadS1)).
-    Local override; warning
-    @(156,6820 mm, 120,3680 mm): PTH-pad S3 [unconnected-(U3-SHIELD-PadS1)_2] van U3
 [net_conflict]: Padnet (unconnected-(U3-SHIELD-PadS1)_0) komt niet overeen met het net gegeven door schema (unconnected-(U3-SHIELD-PadS1)).
     Local override; warning
-    @(98,6820 mm, 120,3680 mm): PTH-pad S4 [unconnected-(U3-SHIELD-PadS1)_0] van U3
+    @(156,6820 mm, 71,3680 mm): PTH-pad S2 [unconnected-(U3-SHIELD-PadS1)_0] van U3
+[net_conflict]: Padnet (unconnected-(U3-SHIELD-PadS1)_1) komt niet overeen met het net gegeven door schema (unconnected-(U3-SHIELD-PadS1)).
+    Local override; warning
+    @(156,6820 mm, 120,3680 mm): PTH-pad S3 [unconnected-(U3-SHIELD-PadS1)_1] van U3
+[net_conflict]: Padnet (unconnected-(U3-SHIELD-PadS1)_2) komt niet overeen met het net gegeven door schema (unconnected-(U3-SHIELD-PadS1)).
+    Local override; warning
+    @(98,6820 mm, 120,3680 mm): PTH-pad S4 [unconnected-(U3-SHIELD-PadS1)_2] van U3
 [extra_footprint]: Extra footprint
     Local override; warning
     @(76,5250 mm, 70,0000 mm): Footprint Logo

@@ -16610,7 +16610,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92ef50e6-0f53-4d41-9eeb-2ab13e7ce369")
-		(property "Reference" "TP15"
+		(property "Reference" "TP5"
 			(at 79.502 73.406 0)
 			(effects
 				(font
@@ -16670,7 +16670,7 @@
 		(instances
 			(project "universalConnectorBoard"
 				(path "/4d36baa7-ef48-416a-b1c8-6a662c0af28f"
-					(reference "TP15")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -20955,7 +20955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5d6ca9e-bb8c-4116-a348-97e86d743efd")
-		(property "Reference" "TP5"
+		(property "Reference" "TP1"
 			(at 232.156 50.546 90)
 			(effects
 				(font
@@ -21015,7 +21015,7 @@
 		(instances
 			(project "universalConnectorBoard"
 				(path "/4d36baa7-ef48-416a-b1c8-6a662c0af28f"
-					(reference "TP5")
+					(reference "TP1")
 					(unit 1)
 				)
 			)

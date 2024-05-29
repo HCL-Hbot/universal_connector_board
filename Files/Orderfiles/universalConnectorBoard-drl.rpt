@@ -1,0 +1,32 @@
+Drill report for universalConnectorBoard.kicad_pcb
+Created on 2024-05-29T13:56:18+0200
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'universalConnectorBoard-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,300mm  0,0118"  (2 holes)
+    T2  0,400mm  0,0157"  (237 holes)
+    T3  0,780mm  0,0307"  (3 holes)
+    T4  0,950mm  0,0374"  (37 holes)
+    T5  1,000mm  0,0394"  (69 holes)
+    T6  1,016mm  0,0400"  (40 holes)
+    T7  1,020mm  0,0402"  (43 holes)
+    T8  1,350mm  0,0531"  (6 holes)
+    T9  2,750mm  0,1083"  (4 holes)
+
+    Total plated holes count 441
+
+
+Drill file 'universalConnectorBoard-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  1,500mm  0,0591"  (2 holes)
+    T2  1,800mm  0,0709"  (2 holes)
+
+    Total unplated holes count 4

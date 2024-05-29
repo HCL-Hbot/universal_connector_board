@@ -480,10 +480,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "../../../../../../../Program Files/KiCad/8.0/",
-      "plot": "Files/",
+      "plot": "../Files/Orderfiles/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "universalConnectorBoard.step",
       "svg": "",
       "vrml": ""
     },
