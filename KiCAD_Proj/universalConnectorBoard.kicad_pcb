@@ -34240,6 +34240,14 @@
 		(uuid "9c0a8c7a-7c0f-4429-b573-2166cc07038a")
 	)
 	(segment
+		(start 146.41 54.83)
+		(end 145.92 54.83)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 10)
+		(uuid "ad77c37b-2dc3-4b4a-9f1d-9452bab90423")
+	)
+	(segment
 		(start 83.425 115.3)
 		(end 84.552 114.173)
 		(width 0.25)
