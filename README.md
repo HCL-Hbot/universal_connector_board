@@ -1,5 +1,5 @@
 # Healthboth PCB Design
-This document outlines the contribution to a PCB design for project Healthbot, which is part of the Health Concept Lab of HAN University of Applied Sciences. It is part of a semester 6 student project including 3 Embedded Systems Engineers and 4 Industrial Design Engineers. The goal for this project was developing a social robot for healthcare, with several functionalities. This PCB is made to be integrated in the robot, but also made quite universal, so it can be used in new robot designs. Because this was a first version, please look at the recommendations below!
+This document outlines the contribution to a PCB design for project Healthbot, which is part of the Health Concept Lab of HAN University of Applied Sciences. It is part of a semester 6 student project including 3 Embedded Systems Engineers and 4 Industrial Design Engineers. The goal for this project was developing a social robot for healthcare, with several functionalities. This PCB is made to be integrated in the robot, but also made quite universal, so it can be used in new robot designs. In the folder media, there are images of the PCB. Because this was a first version, please look at the recommendations below!
 
 ## Components
 Some components on the PCB that were needed are the I/O Expander, voltage regulators and an UART multiplexer. 
@@ -20,7 +20,7 @@ Some components on the PCB that were needed are the I/O Expander, voltage regula
 1) Because of safety and time shortage, we just left out the 5V regulator and its circuit that did not work. We now provide 5V via the extra Vcc pins that were added originally as voltage output pins.
 2) We used the Pico GPIO pin 21 as extra reset line for the 2nd display. This was originally the 'INH' of the UART Multiplexer. See image below for the connection made. Here can be seen that the trace on the PCB from GPIO21 to the UART Mux was deliberately damaged and replaced with a connection to the reset pin of the 2nd display.
 
-![Afbeelding van WhatsApp op 2024-06-13 om 12 24 14_29f4cc0a](https://github.com/HCL-Hbot/universal_connector_board/assets/114147170/b0830bbf-6515-4914-b825-d5cc7d796db5)
+![Afbeelding van WhatsApp op 2024-06-13 om 12 24 14_29f4cc0a](https://github.com/HCL-Hbot/universal_connector_board/assets/114147170/1304ba56-c88e-4801-aa36-05dc46cedf37)
 
 
 ## Recommendations
